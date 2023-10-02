@@ -48,3 +48,24 @@ a.sociallinks {
     margin: 0 auto;
 }
 
+div hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100;
+    height: auto;
+}
+
+article img {
+    float: right;
+}
