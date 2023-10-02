@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+/* class-selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
+
 nav {
     background-color: #4cc9f0;
     padding: 10px;
@@ -32,8 +48,6 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
@@ -45,5 +59,22 @@ aside img {
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
+    text-align: center;
+}
+
+main img {
+    float: right;
+    position: relative;
+    top: 60;
+    left: 150;
+}
+
+aside h2 {
+    position: relative;
+    top: 0;
+    left: 60;
+}
+
+main h1 {
     text-align: center;
 }
