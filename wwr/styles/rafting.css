@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+:root {
+    --primary-color: #4cc9f0;
+    --secondary-color: #4361ee;
+    --accent1-color: #3a0ca3;
+    --accent2-color: #7209b7;
+    --heading-color: #4361ee;
+    --main-background-color: #ffffff;
+    --text-color: #333333;
+    --heading-color: #ff6600;
+    --link-color: #0077b6;
+
+    --heading-font: 'Roboto Slab', serif;
+    --paragraph-font: georgia, serif;
+
+    --nav-background-color: #26E0B7;
+    --nav-link-color: #0F98D2;
+    --nav-hover-link-color: #386FB7;
+    --nav-hover-background-color: #3644C1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: var(--#000);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--main-background-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a.sociallinks {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
