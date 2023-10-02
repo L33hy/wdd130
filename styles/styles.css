@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* class-selector */
-
 .box {
     margin: 1rem;
     border: 1px solid rgb(0,0,0,.1);
@@ -70,7 +68,7 @@ main img {
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 60;
 }
