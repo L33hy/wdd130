@@ -66,6 +66,6 @@ article {
     height: auto;
 }
 
-article img {
+div article {
     float: right;
 }
