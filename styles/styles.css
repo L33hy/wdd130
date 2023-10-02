@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-/* class-selector */
-
-.box {
+/* class-selector */.box {
     margin: 1rem;
     border: 1px solid rgb(0,0,0,.1);
     padding: 1rem;
