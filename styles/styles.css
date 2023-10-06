@@ -60,15 +60,15 @@ footer {
 
 main img {
     float: right;
-    top: 60px;
-    left: 150px;
+    top: auto 0;
+    left: 130px;
     margin: 0 0 10px 15px
 }
 
 aside h2 {
     position: absolute;
-    top: 450px;
-    right: 655px;
+    top: auto 0;
+    right: 130px;
 }
 
 aside {
