@@ -20,57 +20,55 @@
     --nav-hover-background-color: #3644C1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p {
-    color: var(--#000);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-}
 
-body {
-    background-color: var(--main-background-color);
-}
-
-a {
-    color: var(--link-color);
-}
-
-a.sociallinks {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1200px;
+header, main, footer{
+    max-width: 600px;
     margin: 0 auto;
 }
 
-div hero {
+.hero {
     position: relative;
+    margin-top: 1rem;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
+    top: 10px;
+    left: 20px;
+    color: navy;
 }
 
-article {
+.hero article {
     position: absolute;
+    bottom: 20px;
+    left: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+    opacity: .8;
 }
 
-p {
-    width: 70px;
-    float: left;
-
+.hero article img{
+    width: 100px;
+    height: auto;
+    float: right;
 }
+
 .hero img {
     display: block;
-    width: 100;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-div article {
-    float: right;
+footer{
+    border: 1px solid #fff;
 }
