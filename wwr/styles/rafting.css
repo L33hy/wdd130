@@ -26,12 +26,23 @@
     box-sizing: border-box;
 }
 
-
+nav{
+    padding: 1rem;
+    border: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
 header, main, footer{
     max-width: 600px;
     margin: 0 auto;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+}
 .hero {
     position: relative;
     margin-top: 1rem;
@@ -69,7 +80,14 @@ header, main, footer{
     object-fit: cover;
 }
 
-.sociallinks{
+.sociallinks a{
     text-decoration: none;
 }
 
+footer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 100px;
+    justify-content: center;
+
+}
