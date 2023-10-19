@@ -24,3 +24,59 @@
     </footer>
     </body>
 </html>
+
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .quiz-container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+    }
+    .question {
+      margin-bottom: 10px;
+    }
+    .input-box {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .submit-button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Fill in the Blanks Quiz</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>Question 1: The capital of France is <input class="input-box" type="text" name="q1" required>.</p>
+      </div>
+      <div class="question">
+        <p>Question 2: The largest planet in our solar system is <input class="input-box" type="text" name="q2" required>.</p>
+      </div>
+      <div class="question">
+        <p>Question 3: HTML stands for HyperText Markup Language, where "HTML" stands for <input class="input-box" type="text" name="q3" required>.</p>
+      </div>
+      <button class="submit-button" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
