@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+:root {
+  --primary-color: #4cc9f0;
+  --secondary-color: #4361ee;
+  --accent1-color: #3a0ca3;
+  --accent2-color: #7209b7;
+
+  --heading-font: serif;
+  --paragraph-font: georgia, serif;
+
+  --nav-background-color: #26E0B7;
+  --nav-link-color: #0F98D2;
+  --nav-hover-link-color: #386FB7;
+  --nav-hover-background-color: #3644C1;
+}
+
+
 body {
   max-width: 450px;
-    font-family: Arial, sans-serif;
+  font-family: var(--heading-font);
 }
 
 form {
@@ -12,9 +30,12 @@ form {
 }
 
 h1 {
+    font-family: var(--paragraph-font);
+    font-weight: bold;
     display: block;
     font-size: 2em;
     font-weight: bold;
+    color: navy;
 }
 
 .input {
