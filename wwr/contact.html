@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White-Water Raftings Limited, | About us: We are a dedicated entity and group of body.</title>
-    <meta name="description" content="The Rafting site plan includes, the sites purpose, the target audience, branding information, and guidance on how to book a rafting trip Adventure.">
+    <meta name="description"
+        content="The Rafting site plan includes, the sites purpose, the target audience, branding information, and guidance on how to book a rafting trip Adventure.">
     <meta name="author" content="Lehi Daniel">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -42,57 +43,73 @@
         </section>
 
         <section>
-                <h2>Location</h2>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1961.635503443419!2d7.434366138804784!3d10.
+            <h2>Location</h2>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1961.635503443419!2d7.434366138804784!3d10.
                         479289341107656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1697799661394!5m2!1sen!2sng"
-                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    width="300" height="300" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
 
         <section class="image-gallery">
             <h2>River Rafting Guides</h2>
-            <figure>
-                <img src="images/rafting4.jpg" alt="Rafting Adventures" width="200" height="100">
-                <figcaption>Rafting Adventure</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting5.jpg" alt="Rafting tides" width="200" height="100">
-                <figcaption>Family Raftings</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting7.jpg" alt="A day with the tides" width="200" height="100">
-                <figcaption>Happy Rafter Guides</figcaption>
-            </figure>
+            <div class="guides">
+                <figure>
+                    <img src="images/rafting4.jpg" alt="Rafting Adventures" width="200" height="100">
+                    <figcaption>Rafting Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting5.jpg" alt="Rafting tides" width="200" height="100">
+                    <figcaption>Family Raftings</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting7.jpg" alt="A day with the tides" width="200" height="100">
+                    <figcaption>Happy Rafter Guides</figcaption>
+                </figure>
+            </div>
         </section>
 
         <section>
             <form>
-                <label for="name" class="container">User Name</label>
-                <input type="text" name="name" id="name" class="input" placeholder="Enter Username">
+                <div class="name">
+                    <label for="name" class="container">User Name</label>
+                    <input type="text" name="name" id="name" class="input" placeholder="Enter Username">
+                </div>
 
-                <label for="email" class="container">User Email</label>
-                <input name="email" id="email" class="input" placeholder="Enter Email Address">
+                <div class="email">
+                    <label for="email" class="container">User Email</label>
+                    <input name="email" id="email" class="input" placeholder="Enter Email Address">
+                </div>
 
-                <label for="general">General Inquiry</label><br>
-                <input type="radio" id="general" name="purpose" value="General Inquiry">
+                <div class="general">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="selection" name="selection" value="General Inquiry">
+                </div>
 
-                <label for="reservation">Reservation Question</label><br>
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <div class="reservation">
+                    <input type="radio" id="selection" name="selection" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                </div>
 
-                <label for="suggestion">Website Suggestion</label><br>
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <div class="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="selection" name="selection" value="Website Suggestion">
+                </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+                <div class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+                </div>
 
-                <label>
-                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                    Please subscribe me to the monthly newsletter
-                </label>
-                <input type="submit" value="Submit" id="submit-button">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                    <input type="submit" value="Submit" id="submit-button">
+                </div>
             </form>
         </section>
     </main>

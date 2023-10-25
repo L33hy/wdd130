@@ -42,14 +42,16 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
-header {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 300px 2fr;
-  background-color: #fff;
+header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 500px 2fr 2fr;
+    background-color: navy;
+    padding: 0;
 }
 
 .contact {
@@ -62,10 +64,8 @@ header {
     text-align: center;
 
 header .img{
-  width: 100px;
-  height: auto;
-  padding: 10px;
-  margin: 10px;
+    padding: 10px;
+    margin: 10px;
 }
     
 .contact {
@@ -79,12 +79,15 @@ header .img{
 }
 
 /* Style the heading and paragraph */
-h1, h2, h3, h4, h5, h6{
-  position: relative;
-  color: #fff;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 10px;
+h1 {
+    position: relative;
+    color: navy;
+    font-size: 2.5rem;
+}
+
+h2{
+    grid-column: 1/4;
+    text-align: center;
 }
 
 .history{
@@ -132,8 +135,10 @@ p {
     height: auto;
 }
 
-.map {
-    text-align: center;
+#map {
+    height: 20px;
+    width: 20px;
+    max-width: 900;
 }
 
 figcaption{
